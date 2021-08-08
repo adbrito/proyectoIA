@@ -1,2 +1,6 @@
 betsentiment-ES-tweets-sentiment-teams.csv
 data.csv
+tweets.train
+tweets.validation
+uptweets.train
+model-en.ftz
