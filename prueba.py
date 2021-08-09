@@ -107,10 +107,10 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     tweet = ' '.join(re.sub("(@[\s?_?\wA-Za-z0-9]+)|(#[\s?_?\w]+)", "", tweet).split())
     
     #Removal of address
-    tweet = ' '.join(re.sub("(\w+:\/\/\S+)", "", tweet).split())
+    tweet = ' '.join(re.sub("(\w+:\/\/\w+\.?\S+)", "", tweet).split())
     
     #Removal of Punctuation
-    tweet = ' '.join(re.sub("[\.\,\!\?\:\;\-\=\&\´\``\|\[\]\*\)\(\%\>\<\#\/]", "", tweet).split())
+    tweet = ' '.join(re.sub("[\.\,\!\?\¿\:\;\-\=\&\´\``\|\[\]\*\)\(\%\>\<\#\/]", "", tweet).split())
     
     #Lower case
     tweet = tweet.lower()
@@ -160,7 +160,7 @@ def preprocess(input_file, output_file, keep=1):
     i=0
     with open(output_file, 'w') as csvoutfile:
         csv_writer = csv.writer(csvoutfile, delimiter=' ', lineterminator='\n')
-        with open(input_file, 'r', newline='',encoding='utf8') as csvinfile: #,encoding='latin1'
+        with open(input_file, 'r', newline='',encoding='latin1') as csvinfile: #,encoding='latin1'
             csv_reader = csv.reader(csvinfile, delimiter=',', quotechar='"')
             for row in csv_reader:
                 if row[4]!="MIXED" and row[4].upper() in ['POSITIVE','NEGATIVE','NEUTRAL'] and row[2]!='':
@@ -172,7 +172,7 @@ def preprocess(input_file, output_file, keep=1):
                     print(i)
             
 # Preparing the training dataset        
-preprocess('prueba.csv', 'tweets.train')
+preprocess('data.csv', 'tweets.train')
 
 # Preparing the validation dataset        
 # preprocess('data.csv', 'tweets.validation')
@@ -197,7 +197,7 @@ def upsampling(input_file, output_file, ratio_upsampling=1):
     dict_data_by_label = {}
 
     # GET LABEL LIST AND GET DATA PER LABEL
-    with open(input_file, 'r', newline='') as csvinfile: 
+    with open(input_file, 'r', newline='',encoding="utf-8") as csvinfile: 
         csv_reader = csv.reader(csvinfile, delimiter=',', quotechar='"')
         for row in csv_reader:
             counts[row[0].split()[0]] = counts.get(row[0].split()[0], 0) + 1
