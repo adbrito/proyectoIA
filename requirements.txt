@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.3
+emoji==1.4.1
+fasttext
+nltk==3.6.2

@@ -1,6 +1,6 @@
 import fasttext
 
-model = fasttext.load_model("model-en.ftz")
+model = fasttext.load_model("model-es.ftz")
 print('***************************************************')
 print('Frase: amor y felicidad')
 l=model.predict("amor y felicidad", k=3)

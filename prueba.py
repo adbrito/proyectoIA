@@ -197,11 +197,7 @@ def upsampling(input_file, output_file, ratio_upsampling=1):
     dict_data_by_label = {}
 
     # GET LABEL LIST AND GET DATA PER LABEL
-<<<<<<< HEAD
     with open(input_file, 'r', newline='',encoding="utf-8") as csvinfile: 
-=======
-    with open(input_file, 'r', newline='',encoding='utf-8') as csvinfile: 
->>>>>>> 04a9c0358a10c1a91ac96c70ad4009fecfe3b46b
         csv_reader = csv.reader(csvinfile, delimiter=',', quotechar='"')
         for row in csv_reader:
             counts[row[0].split()[0]] = counts.get(row[0].split()[0], 0) + 1
