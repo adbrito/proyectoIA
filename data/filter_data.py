@@ -26,7 +26,7 @@ for i in file_data:
         for s in content_list:
 
             # remove hastags, mentions and links
-            if(s.startswith("#") or s.startswith("@") or s.startswith("https:") or s.startswith("http:")):
+            if(s.count("#")>0 or s.count("@")>0 or s.count("https:")>0 or s.count("http:")>0):
                 break
             line_filter.append(s)
 
