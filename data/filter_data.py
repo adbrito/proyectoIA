@@ -1,14 +1,14 @@
 
 # Python program to read
 # json file
-  
-  
+
+
 import json
-  
+
 # Opening JSON file
-file_data = open('b.json',"r",encoding='utf-8')
-  
-file_output = open('data.csv',"w",encoding='utf-8')
+file_data = open('b.json', "r", encoding='utf-8')
+
+file_output = open('data.csv', "w", encoding='utf-8')
 
 file_output.write("date,content\n")
 
@@ -18,23 +18,25 @@ for i in file_data:
     data = json.loads(i)
     date = data["date"]
     content = data["content"]
-    if (date != None and content != None and len(content)!=0):
+    if (date != None and content != None and len(content) > 0):
 
-        content_list=content.split(" ");
+        content_list = content.split(" ")
 
-        line_filter=[]
+        line_filter = []
         for s in content_list:
-            
-            # remove hastags and mentions
-            if(s.startswith("#") or s.startswith("@")):
+
+            # remove hastags, mentions and links
+            if(s.startswith("#") or s.startswith("@") or s.startswith("https:") or s.startswith("http:")):
                 break
             line_filter.append(s)
 
         line_filter_s = " ".join(line_filter)
+        line_filter_s = line_filter_s.replace("\n", " ")
 
-        line = date+","+line_filter_s.replace("\n"," ")+"\n"
-        file_output.write(line)
-    
-  
+        if(len(line_filter_s) > 0):
+            line = date+","+line_filter_s+"\n"
+            file_output.write(line)
+
+
 # Closing file
 file_data.close()
