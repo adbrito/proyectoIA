@@ -9,7 +9,7 @@ import csv
 # Opening JSON file
 file_data = open('b.json', "r", encoding='utf-8')
 
-file_output = open('data.csv', "w", encoding='utf-8', newline='')
+file_output = open('tweets.csv', "w", encoding='utf-8', newline='')
 
 header = ['date', 'content']
 
