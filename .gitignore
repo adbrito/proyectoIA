@@ -5,3 +5,8 @@ tweets.validation
 uptweets.train
 tester.csv
 .env
+b1.json
+c.json
+d.json
+user-tweets.json
+reader.py
