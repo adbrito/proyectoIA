@@ -11,3 +11,4 @@ d.json
 user-tweets.json
 reader.py
 tweets.csv
+tweets_predict.csv

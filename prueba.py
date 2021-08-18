@@ -10,6 +10,7 @@ import re
 import itertools
 import emoji
 
+encoding_files = "latin1" #utf-8
 
 #####################################################################################
 #
@@ -158,9 +159,9 @@ def transform_instance(row):
 
 def preprocess(input_file, output_file, keep=1):
     i=0
-    with open(output_file, 'w') as csvoutfile:
+    with open(output_file, 'w', encoding=encoding_files) as csvoutfile:
         csv_writer = csv.writer(csvoutfile, delimiter=' ', lineterminator='\n')
-        with open(input_file, 'r', newline='',encoding='latin1') as csvinfile: #,encoding='latin1'
+        with open(input_file, 'r', encoding=encoding_files, newline='') as csvinfile:  # ,encoding='latin1'
             csv_reader = csv.reader(csvinfile, delimiter=',', quotechar='"')
             for row in csv_reader:
                 if row[4]!="MIXED" and row[4].upper() in ['POSITIVE','NEGATIVE','NEUTRAL'] and row[2]!='':
@@ -197,7 +198,7 @@ def upsampling(input_file, output_file, ratio_upsampling=1):
     dict_data_by_label = {}
 
     # GET LABEL LIST AND GET DATA PER LABEL
-    with open(input_file, 'r', newline='',encoding="utf-8") as csvinfile: 
+    with open(input_file, 'r', newline='', encoding=encoding_files) as csvinfile:
         csv_reader = csv.reader(csvinfile, delimiter=',', quotechar='"')
         for row in csv_reader:
             counts[row[0].split()[0]] = counts.get(row[0].split()[0], 0) + 1
@@ -231,7 +232,7 @@ def upsampling(input_file, output_file, ratio_upsampling=1):
     # WRITE ALL
     i=0
 
-    with open(output_file, 'w') as txtoutfile:
+    with open(output_file, 'w', encoding=encoding_files) as txtoutfile:
         for row in data_upsampled:
             txtoutfile.write(row+ '\n' )
             i=i+1
