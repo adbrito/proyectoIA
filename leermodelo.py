@@ -15,7 +15,7 @@ csv_reader = csv.reader(tweets, delimiter=',')
 
 
 # output files
-file_output = open('tweets_predict.csv', "w", encoding=encoding_files, newline='')
+file_output = open('tweets_predict_all.csv', "w", encoding=encoding_files, newline='')
 
 header = ['date', 'label','value']
 # write the header
@@ -48,3 +48,7 @@ for row in csv_reader:
     #l=model.predict(tweet, k=3)
     #print(l)
     current_line += 1
+
+# Closing file
+tweets.close()
+file_output.close()
