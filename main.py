@@ -15,7 +15,7 @@ csv_reader = csv.reader(tweets_predict, delimiter=',')
 # output files
 file_output = open('tweets_predict.csv', "w", encoding=encoding_files, newline='')
 
-header = ['date', 'label', 'value']
+header = ['date', 'label', 'value', 'content']
 # write the header
 csv_writer = csv.writer(file_output)
 csv_writer.writerow(header)

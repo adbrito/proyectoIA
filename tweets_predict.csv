@@ -1,101 +1,101 @@
-date,label,value
-2021-03-28 14:36:52,NEGATIVE,0.5571562051773071
-2021-04-13 23:07:45,NEGATIVE,0.7542076706886292
-2021-07-02 01:40:26,NEUTRAL,0.6481425166130066
-2021-05-19 17:45:00,NEUTRAL,0.9899199604988098
-2021-04-24 01:38:46,NEUTRAL,0.9255111217498779
-2021-03-25 19:50:00,NEUTRAL,0.9327229261398315
-2021-06-16 12:49:06,POSITIVE,0.47497841715812683
-2021-07-18 23:04:21,POSITIVE,0.7159576416015625
-2021-07-20 19:19:31,NEUTRAL,0.940883219242096
-2021-04-08 21:39:44,NEUTRAL,0.9155874848365784
-2021-03-30 13:01:48,NEGATIVE,0.7911999821662903
-2021-07-16 22:18:07,NEUTRAL,0.6774450540542603
-2021-05-12 23:53:27,NEUTRAL,0.9951649904251099
-2021-07-05 05:00:52,NEUTRAL,0.7826095223426819
-2021-03-25 18:11:21,NEUTRAL,0.6727890968322754
-2021-05-12 12:38:00,NEUTRAL,0.9762721061706543
-2021-03-07 15:47:08,NEUTRAL,0.9820976853370667
-2021-05-07 22:09:21,NEUTRAL,0.6840544939041138
-2021-08-06 21:31:52,NEGATIVE,0.5035540461540222
-2021-03-16 00:02:12,POSITIVE,0.6725213527679443
-2021-04-19 09:23:40,NEUTRAL,0.9619120359420776
-2021-03-15 14:54:56,NEUTRAL,0.9434744119644165
-2021-08-07 03:50:40,NEGATIVE,0.6042217016220093
-2021-04-16 20:10:26,NEUTRAL,0.9425457715988159
-2021-04-30 23:22:08,NEUTRAL,0.7801737785339355
-2021-05-03 11:50:08,NEGATIVE,0.817848265171051
-2021-03-24 01:22:24,NEGATIVE,0.6841385364532471
-2021-04-09 20:06:29,NEUTRAL,0.688293993473053
-2021-07-03 00:08:39,NEUTRAL,0.9990077614784241
-2021-05-02 02:24:40,NEUTRAL,0.9972114562988281
-2021-03-11 17:18:19,POSITIVE,0.6799882054328918
-2021-06-15 00:48:02,NEGATIVE,0.5959213972091675
-2021-07-02 14:31:06,POSITIVE,0.41294655203819275
-2021-07-06 17:19:40,NEUTRAL,0.5629803538322449
-2021-08-05 17:57:41,NEUTRAL,0.8663833737373352
-2021-03-07 05:28:40,NEUTRAL,0.6215135455131531
-2021-07-10 13:36:04,NEUTRAL,0.8631677627563477
-2021-05-31 22:46:26,NEGATIVE,0.7831632494926453
-2021-05-30 19:53:00,NEGATIVE,0.8109944462776184
-2021-04-24 17:00:42,NEUTRAL,0.8134938478469849
-2021-03-07 20:25:03,NEGATIVE,0.9303760528564453
-2021-07-16 20:08:56,NEGATIVE,0.9353324770927429
-2021-07-28 20:06:08,NEGATIVE,0.6855632662773132
-2021-03-12 19:20:37,NEUTRAL,0.8811650276184082
-2021-04-10 01:47:07,NEUTRAL,0.9032778739929199
-2021-06-12 05:16:39,NEUTRAL,0.9985394477844238
-2021-03-12 04:59:20,NEGATIVE,0.9378352761268616
-2021-03-17 16:04:05,NEUTRAL,0.9988700151443481
-2021-06-01 01:14:46,NEUTRAL,0.9653806090354919
-2021-06-08 15:33:29,NEUTRAL,0.47249457240104675
-2021-06-24 21:25:31,NEUTRAL,0.7164965867996216
-2021-06-04 19:21:00,NEUTRAL,0.8186268210411072
-2021-07-13 23:54:16,NEUTRAL,0.9726769924163818
-2021-05-27 20:23:55,NEUTRAL,0.9501006603240967
-2021-04-10 11:12:12,NEUTRAL,0.6437874436378479
-2021-05-24 18:44:13,NEUTRAL,0.9800309538841248
-2021-06-16 04:13:08,NEUTRAL,0.6570833325386047
-2021-07-28 13:46:26,NEUTRAL,0.7075849771499634
-2021-06-21 20:43:17,NEUTRAL,0.5634216070175171
-2021-05-25 12:03:37,NEUTRAL,0.43235713243484497
-2021-04-09 21:26:23,POSITIVE,0.9984942078590393
-2021-06-01 12:12:01,NEUTRAL,0.6511614918708801
-2021-04-23 14:28:08,NEGATIVE,0.9912786483764648
-2021-07-12 21:04:20,NEGATIVE,0.8175981640815735
-2021-03-16 12:10:55,NEGATIVE,0.9773579835891724
-2021-03-08 19:40:43,NEUTRAL,0.8897563219070435
-2021-04-07 14:43:24,NEUTRAL,0.7376679182052612
-2021-06-19 14:18:09,NEGATIVE,0.6587562561035156
-2021-05-12 22:21:00,NEUTRAL,0.8609879612922668
-2021-05-16 00:33:00,NEUTRAL,0.9932190775871277
-2021-06-20 22:53:02,NEUTRAL,0.9783644080162048
-2021-06-13 17:21:01,NEUTRAL,0.9689717292785645
-2021-08-05 22:30:10,NEUTRAL,0.8688180446624756
-2021-07-02 03:35:27,NEUTRAL,0.8976637125015259
-2021-04-23 02:39:23,NEUTRAL,0.5119317770004272
-2021-05-07 13:19:07,NEUTRAL,0.9910790920257568
-2021-05-04 13:13:28,NEUTRAL,0.9900735020637512
-2021-05-15 17:36:01,NEUTRAL,0.996843159198761
-2021-04-06 01:54:58,NEGATIVE,0.9964341521263123
-2021-03-12 21:38:07,POSITIVE,0.5314632058143616
-2021-08-06 20:35:39,NEGATIVE,0.509197473526001
-2021-07-02 15:44:00,NEUTRAL,0.7129213809967041
-2021-03-19 15:26:52,NEUTRAL,0.7257339358329773
-2021-03-09 00:42:14,NEUTRAL,0.6213164925575256
-2021-08-09 15:44:23,NEGATIVE,0.6570931673049927
-2021-06-16 00:41:20,NEUTRAL,0.41190847754478455
-2021-04-06 14:45:35,NEUTRAL,0.5813464522361755
-2021-03-16 16:47:41,NEUTRAL,0.6309425830841064
-2021-07-18 17:20:38,NEGATIVE,0.5975310802459717
-2021-03-14 04:58:08,NEUTRAL,0.6841134428977966
-2021-05-22 02:36:17,NEUTRAL,0.9796352386474609
-2021-05-22 18:48:00,NEGATIVE,0.5941488146781921
-2021-07-08 13:42:59,NEUTRAL,0.9914458394050598
-2021-03-24 14:42:08,NEUTRAL,0.6164835095405579
-2021-04-25 04:53:28,POSITIVE,0.4269874095916748
-2021-07-09 11:48:23,POSITIVE,0.49294570088386536
-2021-03-12 01:54:39,POSITIVE,0.8586487174034119
-2021-04-12 01:42:08,NEUTRAL,0.6835903525352478
-2021-03-03 00:40:00,NEUTRAL,0.9852842092514038
-2021-04-14 13:58:47,NEUTRAL,0.9723734855651855
+date,label,value,content
+2021-03-20 17:46:25,NEUTRAL,0.6580326557159424,| Revelan lista de ministros que recibieron la vacuna contra en Ecuador »
+2021-06-11 14:59:19,NEUTRAL,0.8289906978607178,Buenos datos de la vacuna  que se propone en
+2021-05-17 02:10:19,NEUTRAL,0.8250821828842163,"No es tan fácil, Jean. A diferencia del Perú, en Ecuador está autorizada Sinovac. Es necesario cumplir una serie de trámites para que esa vacuna se use aquí."
+2021-06-27 01:06:12,POSITIVE,0.6297369003295898,"Espero que Dios pueda despertar de inmediato al Sr. Presidente de Ecuador para que comprenda: La vacuna china es una copia del virus y es una lesión secundaria.  Es una conspiración que conmocionó al mundo.  Que Dios bendiga la vida del pueblo ecuatoriano, lejos de la vacuna"
+2021-03-18 04:33:35,NEUTRAL,0.7108803987503052,"Mientras en Ecuador mueren x vacunarse, acá en la Jonhy muchos estamos en contra de la vacuna. La plena que vivir en el 1er mundo te abre la mente."
+2021-04-07 23:16:02,NEUTRAL,0.8625990748405457,"¿Qué tan efectiva es? ¿Cuántas dosis son? Esto debes saber sobre CoronaVac, la vacuna de la farmacéutica asiática Sinovac, que acaba de llegar a Ecuador. 👇"
+2021-06-12 00:57:17,NEUTRAL,0.48935621976852417,"Como parte de la iniciativa Facility arribaron a Ecuador🇪🇨 3️⃣3️⃣6️⃣ mil dosis de la vacuna cargamento fue recibido por la ministra de y el vicepresidente,  """
+2021-08-02 22:03:38,NEUTRAL,0.7159957885742188,En Ecuador 2.000 negocios ofrecen beneficios a las personas que completaron la vacuna contra el COVID-19 | Por Yalilé Loaiza
+2021-06-09 19:57:23,NEUTRAL,0.9710226058959961,Ecuador y Rusia estarían a un paso de cerrar negociación para provisión de vacuna anticoronavirus Sputnik
+2021-07-14 01:45:02,NEUTRAL,0.9643068313598633,Este martes arribaron 76.050 dosis de vacuna de Pfizer a Ecuador ►
+2021-03-06 19:19:13,NEUTRAL,0.8671447038650513,El movimiento indígena de Ecuador ha solicitado a Arcsa que apruebe la vacuna rusa Sputnik V y otras que ya circulan en amplias regiones del mundo para inmunizar cuanto antes a la población. 👉 
+2021-03-11 12:36:34,NEUTRAL,0.7695443034172058,Mis suegros de 70+ años ya se vacunaron en Chile (las dos dosis). Mi cuñada que es sicóloga también recibió la vacuna porque la salud mental también es importante. ¿Y Ecuador? Ni rastros de las vacunas y un plan de vacunación
+2021-07-13 02:45:57,NEUTRAL,0.528364896774292,La responsabilidad de la es la vacuna dije.. ¡¡¡no se vacunen!!!  Miren mi otra cuenta que me quitaron para que tengan una
+2021-03-16 18:40:20,NEUTRAL,0.5679640769958496,"Solo en Ecuador el Ministerio de Salud Pública hace un pedido PÚBLICO que POR FAVORSITO no vayan a ingresar datos falsos o erróneos en su ""plataforma"" de registro para la vacuna (que por cierto no sirve, sirvió, o servirá) No se si son o se hacen"
+2021-04-07 12:05:51,NEGATIVE,0.5571541786193848,"Señorita, no es alarmar, es comunicar. Si Ecuador no registra al menos una falla en esas vacunas cuando a nivel internacional los reportan, significa que algo está mal. Es grave tratar de ocultar una información de bienestar social. Hay q conseguir otra vacuna, sería lo mejor."
+2021-04-09 22:37:20,NEUTRAL,0.9996664524078369,Ecuador aplica dos dosis de vacuna por cada 100 habitantes ¿Cuántas se administran en otros 48 países de América?
+2021-06-21 18:41:34,NEGATIVE,0.7591187953948975,"A los que están saltando en un pie con que la vacuna es el fin de la pandemia, China está otra vez en cuarentena. Con lo cual empresarios, comerciantes y emprendedores prepárense que no será más de 2-3 meses para que Ecuador vuelva a cerrarse, tal vez antes."
+2021-03-24 18:03:03,NEUTRAL,0.9626279473304749,⚽ Responde a nuestra encuesta de hoy 🤔¿Estarías de acuerdo con que retorne el público los estadios en a pesar de no contar con la vacuna aún ?  📺 No te pierdas 🏆 desde las 13h45 con y
+2021-06-15 17:28:48,NEGATIVE,0.7119507193565369,"😳 Para los 👟👠 de Ecuador que andan pidiendo que sólo les vacunen ""Con la Pfizer"" porque no quieren las ""comunistas""..Entiendan que con cualquiera que se apliquen deben seguir usando 😷 y cuidándose, la vacuna es una protección extra nada más, no evita que se enfermen"
+2021-04-13 16:04:33,POSITIVE,0.7426875829696655,"Sobre mi Ecuador, les cuento que seguimos sin pentavalentes (misma historia desde el año pasado). La 2da dosis la conseguí 2 meses después. Sobre la vacuna del Covid de 3ra edad, nos llegó la cita. Les estaré contando novedades."
+2021-06-23 17:10:55,NEGATIVE,0.621144711971283,Pregunto la vacuna cubana vendrá al Ecuador. Ya ha dicho que no interesa la procedencia de las vacunas o del sistema político que sea. Hay que ver sí el ministerio de adquiere a Abdalá. Lo irónico que tiene el nombre de un polémico político.
+2021-06-08 16:06:18,NEUTRAL,0.9267922043800354,Ventajas y desventajas de la vacuna CanSino que llegará próximamente a Ecuador &gt; Esta es tu casa a través de
+2021-03-06 05:22:07,NEUTRAL,0.8845774531364441,y está cumpliendo con las metas previstas en las fases del Al 5 de marzo se ha aplicado la primera dosis de la vacuna Pfizer contra la a 64 920 personas. Conoce más en
+2021-04-21 17:04:21,NEUTRAL,0.8450445532798767,Pero la vacuna china es la que más está disponible en ecuador de hecho es la vacuna que más se está usando para vacunar a la poblacion
+2021-07-15 00:35:40,NEGATIVE,0.8589539527893066,Dr podría hacerse esta combinación en Ecuador ? Yo tuve una dosis de AstraZeneca y la verdad me dio mucho efectos y aún sigo a veces con algunos estragos y quisiera no aplicarme la misma vacuna por esa razón !
+2021-03-13 19:30:06,NEUTRAL,0.9130475521087646,[VIDEO] | será parte del ensayo clínico de fase tres de la farmacéutica Anhui Zhifei Longcom. Esta vacuna se probará en 4 países. »
+2021-04-08 12:05:42,NEUTRAL,0.9382995963096619,"El 3,9% de las 20 millones de vacunas anticovid han llegado al Ecuador  Con las 300 000 dosis de la vacuna china contra el covid-19 que llegaron este miércoles 7 de abril del 2021, Ecuador completó 799 330."
+2021-04-22 21:18:12,NEGATIVE,0.9055726528167725,¿Es cierto que vacunaron con una vacuna de Ecuador?
+2021-04-15 01:08:35,POSITIVE,0.7144593000411987,"a cambiar al Ecuador señor residente y al desarrollo de la economía, y a salvar vidas mediante la vacuna nuestro presidente de todos gracias y éxitos hasta el 2025"
+2021-06-12 09:10:01,NEUTRAL,0.843113899230957,Ecuador permitirá ingreso sin PCR de quienes hayan recibido dosis completa de cualquier vacuna - Descifrado 
+2021-06-30 16:18:16,NEUTRAL,0.9952633380889893,"La Asociación Chilena de Inmunología señala q Chile debe modificar su estrategia en vacunas, comandado por y toman como referencia ese modelo, es vacuna de poca eficiencia y debe ser eliminada"
+2021-03-17 03:43:52,NEUTRAL,0.9726245999336243,Venezuela tiene muchas más vacunas que nosotros en Ecuador y Cuba esta terminando estudios para su propia vacuna vaya y pregunte!
+2021-04-07 03:23:51,NEGATIVE,0.5448704957962036,¿Qué vacuna es la que están poniendo en Ecuador? 🙏
+2021-07-14 01:02:59,NEUTRAL,0.906714141368866,"||La tarde de este martes 13 de julio, llegaron a Ecuador 76.050 dosis de la vacuna Pfizer, este cargamento será distribuido en los puntos de vacunación correspondientes."
+2021-05-21 21:33:01,NEGATIVE,0.8821828365325928,solo daré está advertencia de la vacuna de covid en ecuador se han descubierto casos de personas que se cree que tienen un ship la cual te puede rastrear incluso en un futura matar solo estoy diciendo esto por cualquier cosa yo no me voy a vacunar por cualquier caso
+2021-07-03 03:23:52,NEGATIVE,0.9824253916740417,Periodista y no sabía q ninguna vacuna da un 100% de inmunidad? Si hubiese pasado aquí dirímalos SOLO EN ECUADOR PASA
+2021-03-02 20:14:21,NEUTRAL,0.8127428293228149,recibió a los representantes en de la vacuna cuya eficacia es del 92% con dos dosis. Además indicaron que la cadena de frío para transportar el producto es similar a la que se utiliza en vacunas tradicionales.
+2021-05-19 23:22:35,NEUTRAL,0.9917886853218079,🟩 Zaida Rovira se enfrenta al Ministerio de Salud Pública en defensa de los derechos de los adultos mayores quienes sufrieron atropellos durante la aplicación de la vacuna contra el COVID-19 en La Defensoría del Pueblo trabaja.
+2021-06-07 10:00:00,POSITIVE,0.7855386137962341,A Ecuador podrán ingresar quienes hayan recibido dosis completa de cualquier vacuna - 
+2021-05-09 02:10:13,POSITIVE,0.8629273772239685,"La vacunación es un proceso técnico, no político, y si bien ayudará en lo económico, sino se hace técnicamente no servirá de nada. A la velocidad que vacuna Ecuador terminará en el 2022."
+2021-07-17 02:12:36,NEUTRAL,0.6964343786239624,Una 🍺 gratis x Vacuna ofrece la Cervecería Nacional y el Gobierno feliz 🤡 !!!   Ojala no se la tomen el mismo día en que se vacunan y que no se puede ingerir alcohol.   A dónde hemos llegado !!! Mejor que regalen 1 litro de leche !!! Qué le pasa al Presidente Lasso ???
+2021-03-07 21:43:26,NEUTRAL,0.9960935115814209,Chile envía 40.000 dosis de vacuna Sinovac para personal médico de Ecuador y Paraguay a través de
+2021-03-08 12:27:31,NEUTRAL,0.96767258644104,Gobierno de Ecuador asegura que municipios pueden comprar la vacuna anticovid
+2021-07-16 20:11:13,NEGATIVE,0.9901841878890991,Doctores: nada de alcohol hasta por lo menos 3 días después de recibir la vacuna.  Ecuador:
+2021-06-17 18:24:53,NEGATIVE,0.9320610761642456,"Yo ni idea, solo sé que el otro día vi que en Ecuador les ponían una vacuna llamada Cansino xd"
+2021-05-15 13:33:29,NEGATIVE,0.8392671942710876,"Universidad Central del Ecuador para vacuna de enfermos catastróficos y no atienden, salen a buscar a los ""agendados"" y no hay nadie vacunándose, hasta cuando el maltrato!"
+2021-04-17 08:09:51,POSITIVE,0.956477165222168,Me traje este ají de Ecuador 🇪🇨 y creo que funciona mejor que la vacuna de Pfizer.
+2021-03-18 21:56:41,POSITIVE,0.9647197127342224,Metete tu vacuna
+2021-06-15 17:07:27,NEUTRAL,0.954004168510437,La triste realidad del ecuador lo centros de vacunacion en la ciudad de quevedo provincia de los rios prefieren que las vacunas se pierdan y no vacunar a la gente cuando ay mucha gente haciendo fila rogando x una vacuna 
+2021-03-31 01:36:17,NEUTRAL,0.8640288710594177,"Como AME Nacional creemos que se debe hacer una coordinación responsable para que la vacuna pueda llegar a los sectores sensibles de la sociedad y no debe haber cantones VIP en el Ecuador, eso lo hemos hablado con el Ministro de Salud y aspiramos que nosotros podamos seguir…"
+2021-05-05 15:14:40,NEUTRAL,0.8485901951789856, esto si es tremenda estrategia. Aplique en Ecuador vacuna por cerveza y en 3 meses tenemos inmunidad
+2021-03-16 13:15:58,POSITIVE,0.4539109468460083,"Con vacuna o sin vacuna la militancia seguirá de pie peleando por un Ecuador libre de los vende patria, este nos devolverá la dignidad y aguante Ecuador 🇪🇨💪🏼"
+2021-07-31 20:12:48,NEGATIVE,0.6777483820915222,"Los médicos atendemos a todos, con o sin plata...los abogados, pues solo a quienes les paguen lo que piden. Eso sí, eran los primeros en exigir que los vacunen solo con la vacuna de Pfizer. Esto es el Ecuador 🤷🏻‍♂️🇪🇨🤷🏻‍♂️"
+2021-04-05 23:58:25,NEGATIVE,0.9964341521263123,📣¡ATENCIÓN!   🔴Ecuador recibe noveno lote con 53.820 dosis de la vacuna de ➡️
+2021-05-27 17:46:15,NEGATIVE,0.9967491030693054,"Pues al parecer se vale mezclar vacunas, allá en la civilización Acá cuándo me tocará mi vacuna"
+2021-05-15 21:06:43,NEUTRAL,0.6062247157096863,Ecuador aprobó el uso de la vacuna Sputnik V contra el
+2021-06-09 19:37:52,NEUTRAL,0.9897580146789551,"y suscribirán en los próximos días el contrato para la provisión de la en contra del dentro del plan gubernamental 9/100, que busca inmunizar a 9 millones de personas en 100"
+2021-03-15 16:12:34,NEUTRAL,0.6267082691192627,"no podemos permitir que esto continúe, necesitamos un gobierno transparente, un líder que esté presente y que erradique estos abusos!  Ecuador 🇪🇨 el país en donde si tienes plata el gobierno te vacuna aunque no seas prioridad y con música romántica!"
+2021-05-16 04:22:30,NEUTRAL,0.4466613531112671,aprueba vacuna
+2021-06-02 16:00:02,NEUTRAL,0.9124797582626343,"Este martes, Ecuador llegó una nueva remesa de dosis de la vacuna de PfizerBioNTech contra el COVID-19. En esta oportunidad fueron 107.640 dosis y es uno de los tres cargamentos con más vacunas que han llegado de la farmacéutica. El nuevo lote arribó al aeropuerto Mariscal Sucre."
+2021-03-01 14:51:21,POSITIVE,0.40455856919288635,"🇪🇨 Un año de convivir con el en Ecuador. Las cifras, su propagación y la esperanza de la el especial gráfico."
+2021-05-18 00:01:20,POSITIVE,0.9489440321922302,"No ganó la corona Ms Ecuador , pero logró la vacuna gratis sin problemas"
+2021-04-22 15:19:19,NEGATIVE,0.8514559268951416,Las principales pandemias del Ecuador sin vacuna o cura son la ignorancia y la indisciplina lastimosamente
+2021-07-15 02:27:04,NEUTRAL,0.928524374961853,"La tarde de este miércoles, 14 de julio de 2021, Ecuador recibió el primer cargamento de 379.080 dosis de la vacuna de Pfizer, a través de la iniciativa Covax Facility, liderada por la Organización Mundial de la Salud (OMS)."
+2021-07-17 20:15:42,NEUTRAL,0.5032179951667786,"Para los que le hacen el ""feo"" a la vacuna Sinovac.   Entendamos que la mejor vacuna es la que te puedes colocar, la pelea es peleando ¡Vamos que vamos!"
+2021-03-31 23:00:07,NEGATIVE,0.966986358165741,Se burlan de quienes han estudiado pero después andan llorando porque no les llega la vacuna.  La misma mediocridad que festejan los dejó sin vacuna.   Al Ecuador le falta educación porque sin educación no hay progreso.  A Twitter hay que regalarle una buena tonelada de 🧠🧠🧠!
+2021-05-13 13:02:33,NEUTRAL,0.9837315678596497,Una consulta y para cuando la vacuna para los que tenemos 60 años
+2021-05-29 01:38:25,NEUTRAL,0.9698562026023865,"Un dato interesante es que en Europa se vacuna por edades (no hay privilegios para el gremio que más patalea, como en Ecuador).  Antes, fallecían más los ancianos.  Ahora la tendencia se revirtió y son los jóvenes sin vacunar los que más fallecen"
+2021-04-29 02:34:48,NEUTRAL,0.8250847458839417,"Si no eres d la 3ra edad y estasEsperando x el amor d tu vida q llegue,es igual Q esperar en ECUador X una vacuna pa covi19 o sea sigue esperando,algún día llegará pero espera y ten la esperanza q algún día llegará d q llega llega y espera con calma q lo bueno llega d último"
+2021-03-15 13:24:48,NEGATIVE,0.4789543151855469,"una duda... Los que han recibido vacuna fuera del pais, por ejemplo, mi señor padre  y que tienen el credencial del CDC debe registrarlo en el IESS a su regreso en Ecuador?"
+2021-08-03 17:52:00,NEUTRAL,0.7155970335006714,✅ En Ecuador todas y todos tenemos derecho a vacunarnos para prevenir la COVID-19. Si eres una persona refugiada o migrante puedes acercarte a los puntos de vacunación y solicitar tu vacuna. Accede aquí para revisar el cronograma de vacunación 9/100 👉
+2021-07-18 20:19:26,POSITIVE,0.4976435899734497,Dr estoy próximo a vacunarme con la vacuna Moderna en España(primera dosis)  y en los próximos días viajo a Ecuador ahí solo se está poniendo sinovac y Pfizer es recomendable combinar estás en la segunda dosis ?
+2021-07-16 02:43:30,NEUTRAL,0.5054432153701782,Arribaron 379.080 dosis de vacuna de Pfizer contra el COVID-19 a Ecuador
+2021-08-03 00:28:55,NEUTRAL,0.6985664367675781,Oficialmente vacunada 2da Dosis Pfizer  👉Excelente Organización 👉Total Asepsia 👉Personal muy Profesional al gobierno del Ecuador por vacunarnos
+2021-07-05 14:25:18,NEUTRAL,0.7487730383872986,Jugadores de la selección de Ecuador recibieron segunda dosis de vacuna contra el
+2021-03-16 13:54:31,NEUTRAL,0.7667871117591858,"No te sorprendas, en Ecuador votaron a uno parecido y pretendan que sea presidente pueblos andan cada vez más idiotizados y para eso aún no hay vacuna."
+2021-07-20 20:07:59,NEUTRAL,0.8267227411270142,Guayaquil Ecuador. No a la vacuna obligatoria...
+2021-03-16 01:33:42,NEUTRAL,0.6654489040374756,"Entonces tomando sus palabras seria ideal q haga presión para revelar la lista de todos los vacunados, y que se sancione con las penas mas ejemplares a quienes hayan cometido un delito para acceder a la vacuna, como el tráfico de influencias, el Ecuador entero se lo agradecería"
+2021-06-16 01:08:57,NEUTRAL,0.9796560406684875,será! autorizó el ingreso de la vacuna china al país para la inmunización de la población dentro del
+2021-03-17 04:22:06,NEGATIVE,0.6639167666435242,"Es la misma mierda. Venezuela, Bolivia, Ecuador... Nuestros niños sin vacuna de polio y estos asesinos regalándolas a"
+2021-03-16 20:35:35,NEUTRAL,0.9927240014076233,En participarán 5.000 personas en el ensayo clínico de fase III de la vacuna china ZF2001. El estudio se iniciará a finales de marzo. »
+2021-06-20 00:36:50,NEGATIVE,0.9767124652862549,APRENDE DE ESTO RENGO TRAIDOR Y cuidado se te ocurra exigir PASAPORTE VACUNA en Ecuador... Hijo de la más ilustre... CORREÍSTA!
+2021-04-07 23:08:00,NEUTRAL,0.8073610067367554,300.000 dosis de la vacuna china Sinovac llegan a Ecuador para la Fase 1. En los próximos días se espera más vacunas &gt;&gt;
+2021-03-06 23:41:49,NEUTRAL,0.9563359618186951,"Chile donó 20 000 dosis de vacuna del laboratorio al Ecuador, para el Plan Vacunarse. Conozca aquí más detalles."
+2021-05-25 14:18:04,NEUTRAL,0.9979656934738159,"En varios países embarazas y lactantes son prioridad para la vacuna de Ejemplo: USA, México, Brasil, Rep. Dominicana. En Ecuador te la niegan o te dicen que debes dejar la lactancia"
+2021-06-09 22:04:30,NEUTRAL,0.7250202298164368,El Ministerio de Salud informa que hasta el momento se ha contratado un total de 𝟮𝟬’ 𝟯𝟭𝟳.𝟭𝟱𝟱 dosis de la vacuna con las siguientes farmacéuticas:   - 𝗖𝗼𝘃𝗮𝘅 𝗙𝗮𝗰𝗶𝗹𝗶𝘁𝘆 - 𝗔𝘀𝘁𝗿𝗮𝗭𝗲𝗻𝗲𝗰𝗮 - 𝗣𝗳𝗶𝘇𝗲𝗿 -
+2021-04-16 18:10:28,NEUTRAL,0.7208472490310669,"Acá en Ecuador están poniendo la vacuna de ASTRAZENICA a docentes y bomberos, esa no es la vacuna que fue vetada en varios países por provocar trombosis?"
+2021-05-02 19:30:06,NEUTRAL,0.80315762758255,RJseguros trabaja para tu tranquilidad! Es por eso que es momento de cuidar tu salud Cotiza tu seguro con
+2021-06-19 01:43:01,NEGATIVE,0.5111817717552185,Y en Ecuador están vacunando a miles de personas con esa vacuna. Esperemos que el resultado no sea para lamentarse
+2021-03-15 02:04:12,NEUTRAL,0.7881497740745544,"Dentro de la Fases 0 y 1 del Plan Vacunarse Ecuador 2021, se ha priorizado la aplicación de la vacuna a adultos mayores, un grupo de atención prioritaria dentro de la población ecuatoriana."
+2021-04-06 02:32:11,NEUTRAL,0.5832705497741699,"Nunca mas permitamos esto, nuestro Ecuador no puede caer en manos de titiriteros, no estamos para shows, queremos fuentes de trabajo, educacion, vacuna y una vida digna, el Ecuatoriano no quiere que nos regalen nada, nosotros lo ganamos con trabajo honrado. LASSO PRESIDENTE.2021"
+2021-04-13 23:40:36,NEUTRAL,0.9871159791946411,Hijo de vicepresidente de recién electo se vacuna antes que ancianos y médicos sin ser de grupo prioritario. Padre lo 
+2021-07-13 19:20:01,NEUTRAL,0.7694099545478821,😷 Pastores del Caribe han influido en decisiones de personas sobre la vacuna contra el covid-19 - El Comercio - El Comercio (Ecuador) 👉 💊
+2021-03-13 15:53:33,NEGATIVE,0.5693776607513428,Ahora entiendes porque hay gente que ocupa el 32% de la población en el Ecuador haciendo lo mismo que el ladrón de correa y siendo vivos para colarse en una fila para una vacuna y que hace la justicia investigar entre comillas porque no hacen más y vivimos en un país sin cultura
+2021-08-08 07:48:21,NEUTRAL,0.9922746419906616,Portugal hará test en las residencias para medir la duración de la
+2021-06-03 12:21:17,NEGATIVE,0.9439521431922913,Que pena leer tanta ignorancia acerca de la vacuna.. Sin embargo países como Ecuador somos ricos se la están poniendo pues el Gob. Las vende a las élites.
+2021-05-13 20:11:07,POSITIVE,0.88588947057724,En Estados Unidos 🇺🇸 las personas que ya han recibido TODAS las dosis de la vacuna contra el COVID-19 ya NO NECESITARÁN USAR MASCARILLA 😷.   ¿Cuándo en Ecuador 🇪🇨 tendremos este anuncio?
+2021-03-03 15:47:47,NEUTRAL,0.5811959505081177,"| La alcaldesa de Cynthia Viteri, anunció que el Municipio adquirirá tres marcas de vacuna contra el en el siguiente orden: AstraZeneca (Reino Unido), Sputnik V (Rusia) y Sinovac (China)."
+2021-05-10 21:07:50,NEUTRAL,0.6720390915870667,✅ | Ecuador completa inoculación con primera dosis de vacuna contra la a policías y militares esta semana.  Más información ➡
+2021-07-19 15:41:23,NEGATIVE,0.6626160144805908,"Pero no se dan cuenta surtió efecto,ahora asta pelean por vacunarse,en Ecuador si no te arrean no haces lo q es correcto,antes querían pagar lo q sea por una vacuna,hoy es gratis nadie queria,NO ENTRAS AL CINE NI AL MOLL NI METRO VIA fue solo eso y miren los puestos de vacunacion"
