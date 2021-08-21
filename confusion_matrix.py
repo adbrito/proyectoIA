@@ -3,6 +3,7 @@ import csv
 from sklearn.metrics import confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 import numpy as np
+import random
 
 encoding_files = "utf-8"
 
@@ -11,11 +12,20 @@ encoding_files = "utf-8"
 tweets_predict = open('tweets_predict.csv', "r", encoding=encoding_files)
 csv_reader = csv.reader(tweets_predict, delimiter=',')
 
-y_actual = [1, 0, 0, 1, 0, 0, 1, 0, 0, 1]
-y_predicted = [1, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+y_actual = []
+y_predicted = []
 
 
-labels = [0, 1, 2]
+labels = ['POSITIVE', 'NEGATIVE', 'NEUTRAL']
+
+for row in csv_reader:
+    y_predicted.append(row[2])
+
+    if(row[1] in labels):
+        y_actual.append(row[1])
+    else:
+        y_actual.append(random.choice(labels))
+
 cm = confusion_matrix(y_actual, y_predicted, labels)
 
 fig, ax = plt.subplots(figsize=(10, 5))
