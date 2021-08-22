@@ -6,6 +6,10 @@ df = pd.read_csv("tweets_predict_all.csv", sep=",")
 
 sentiments = {}
 
+my_colors = ['lightblue','lightsteelblue','silver']
+
+my_explode = (0, 0.1, 0)
+
 labels = []
 values = []
 
@@ -21,7 +25,7 @@ for key in sentiments.keys():
     values.append(sentiments[key])
 
 plt.ion()
-plt.pie(values,labels=labels,autopct='%1.1f%%')
+plt.pie(values,labels=labels,autopct='%1.1f%%', startangle=15, shadow = True, colors=my_colors, explode=my_explode)
 plt.title('My Title')
 plt.axis('equal')
 plt.savefig('pastel.png')
