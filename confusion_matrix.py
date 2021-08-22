@@ -28,14 +28,29 @@ for row in csv_reader:
 
 cm = confusion_matrix(y_actual, y_predicted, labels)
 
-fig, ax = plt.subplots(figsize=(10, 5))
-ax.matshow(cm)
-plt.title('Matriz de Confusión', fontsize=20)
-plt.ylabel('Etiqueta Actual', fontsize=20)
 
+# Plot
+cmap=plt.cm.Blues
+
+fig, ax = plt.subplots(figsize=(10, 5))
+#map color cmap
+cax = ax.matshow(cm,cmap=cmap)
+plt.title('Confusion Matrix', fontsize=20)
+plt.ylabel('Actual Label', fontsize=16)
+plt.xlabel('Predicted Label', fontsize=16)
+
+# color bar
+plt.colorbar(cax)
+
+ax.set_xticklabels([''] + labels)
+ax.set_yticklabels([''] + labels)
+
+thresh = cm.max() / 2.
 
 for (i, j), z in np.ndenumerate(cm):
-    ax.text(j, i, '{value:0.1f}'.format(value=z), ha='center', va='center')
+    ax.text(j, i, '{value:0.1f}'.format(value=z), ha='center', va='center',color="white" if cm[i, j] > thresh else "black")
+
+
 
 plt.show()
 # Closing file
