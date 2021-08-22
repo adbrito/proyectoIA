@@ -22,7 +22,7 @@ header = ['date', 'label','value', 'content']
 csv_writer = csv.writer(file_output)
 csv_writer.writerow(header)
 
-current_line = 1;
+current_line = 1
 
 def get_label(s):
     return s.replace("__label__","")

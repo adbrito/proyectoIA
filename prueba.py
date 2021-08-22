@@ -260,9 +260,9 @@ def train():
     print('Training start')
     try:
         hyper_params = {"lr": 0.01,
-                        "epoch": 50,
-                        "wordNgrams": 10,
-                        "dim": 500}     
+                        "epoch": 150,
+                        "wordNgrams": 25,
+                        "dim": 100}     
                                
         print(str(datetime.datetime.now()) + ' START=>' + str(hyper_params) )
 
