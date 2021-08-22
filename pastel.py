@@ -13,7 +13,10 @@ my_explode = (0, 0, 0.1)
 labels = []
 values = []
 
+tweets = 0
+
 for d in range(len(df)):
+    tweets += 1
     label_predicted = df["label"][d]
     if label_predicted in sentiments:
         sentiments[label_predicted] += 1
@@ -32,3 +35,4 @@ plt.savefig('pastel.png')
 
 print(labels)
 print(values)
+print(tweets)
