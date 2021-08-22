@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv("tweets_predict.csv", sep=",")
+df = pd.read_csv("tweets_predict_all.csv", sep=",")
 
 sentiments = {}
 
@@ -10,7 +10,7 @@ labels = []
 values = []
 
 for d in range(len(df)):
-    label_predicted = df["label_predicted"][d]
+    label_predicted = df["label"][d]
     if label_predicted in sentiments:
         sentiments[label_predicted] += 1
     else:
