@@ -8,7 +8,7 @@ sentiments = {}
 
 my_colors = ['lightblue','lightsteelblue','silver']
 
-my_explode = (0, 0.1, 0)
+my_explode = (0, 0, 0.1)
 
 labels = []
 values = []
@@ -26,7 +26,7 @@ for key in sentiments.keys():
 
 plt.ion()
 plt.pie(values,labels=labels,autopct='%1.1f%%', startangle=15, shadow = True, colors=my_colors, explode=my_explode)
-plt.title('My Title')
+plt.title('Proporción de los sentimientos encontrados en los tweets de los ecuatorianos')
 plt.axis('equal')
 plt.savefig('pastel.png')
 
