@@ -28,8 +28,8 @@ for key in sentiments.keys():
     values.append(sentiments[key])
 
 plt.ion()
-plt.pie(values,labels=labels,autopct='%1.1f%%', startangle=15, shadow = True, colors=my_colors, explode=my_explode)
-plt.title('Proporción de los sentimientos encontrados en los tweets de los ecuatorianos')
+plt.pie(values,labels=labels,autopct='%1.1f%%', startangle=20, shadow = True, colors=my_colors, explode=my_explode)
+plt.title('Proporción de los sentimientos encontrados \n en los tweets de los ecuatorianos')
 plt.axis('equal')
 plt.savefig('pastel.png')
 
