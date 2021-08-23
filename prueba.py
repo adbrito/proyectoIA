@@ -157,7 +157,7 @@ def transform_instance(row):
     return cur_row
 
 
-def preprocess(input_file, output_file, keep=1):
+def preprocess(input_file, output_file):
     i=0
     with open(output_file, 'w', encoding=encoding_files) as csvoutfile:
         csv_writer = csv.writer(csvoutfile, delimiter=' ', lineterminator='\n')
@@ -187,7 +187,7 @@ preprocess('tester.csv', 'tweets.validation')
 #
 #####################################################################################
 
-def upsampling(input_file, output_file, ratio_upsampling=1):
+def upsampling(input_file, output_file):
     # Create a file with equal number of tweets for each label
     #    input_file: path to file
     #    output_file: path to the output file
@@ -285,14 +285,6 @@ def train():
         
         print("Model is quantized!!")
         model.save_model(os.path.join(model_path,model_name + ".ftz"))                
-    
-        ##########################################################################
-        #
-        #  TESTING PART
-        #
-        ##########################################################################            
-        model.predict(['why not'],k=3)
-        model.predict(['this player is so bad'],k=1)
         
     except Exception as e:
         print('Exception during training: ' + str(e) )
