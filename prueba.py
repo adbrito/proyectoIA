@@ -191,7 +191,6 @@ def upsampling(input_file, output_file):
     # Create a file with equal number of tweets for each label
     #    input_file: path to file
     #    output_file: path to the output file
-    #    ratio_upsampling: ratio of each minority classes vs majority one. 1 mean there will be as much of each class than there is for the majority class 
     
     i=0
     counts = {}
