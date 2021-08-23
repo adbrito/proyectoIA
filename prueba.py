@@ -281,7 +281,7 @@ def train():
         print(text_line)
         
         #quantize a model to reduce the memory usage
-        model.quantize(input=training_data_path, qnorm=True, retrain=True, cutoff=400000)
+        model.quantize(input=training_data_path, qnorm=True, retrain=True, cutoff=100000)
         
         print("Model is quantized!!")
         model.save_model(os.path.join(model_path,model_name + ".ftz"))                
