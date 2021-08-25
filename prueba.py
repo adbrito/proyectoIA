@@ -76,6 +76,7 @@ def load_dict_smileys():
         "xp":"jugueton",
         ":p":"jugueton",
         ":Þ":"jugueton",
+        ":v":"jugueton",
         ":þ":"jugueton",
         ":b":"jugueton",
         "<3":"amor",
@@ -104,11 +105,13 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     #Special case not handled previously.
     tweet = tweet.replace('\x92',"'")
     
+    #Removal of address
+    tweet = ' '.join(re.sub("(\w+:\/\/\w+\.?\S+)", "", tweet).split())
+
     #Removal of hastags/account
     tweet = ' '.join(re.sub("(@[\s?_?\wA-Za-z0-9]+)|(#[\s?_?\w]+)", "", tweet).split())
     
-    #Removal of address
-    tweet = ' '.join(re.sub("(\w+:\/\/\w+\.?\S+)", "", tweet).split())
+    
     
     #Removal of Punctuation
     tweet = ' '.join(re.sub("[\.\,\!\?\¿\:\;\-\=\&\´\``\|\[\]\*\)\(\%\>\<\#\/]", "", tweet).split())
@@ -118,8 +121,9 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     
     #CONTRACTIONS source: https://en.wikipedia.org/wiki/Contraction_%28grammar%29
     CONTRACTIONS = load_dict_contractions()
-    # tweet = tweet.replace("’","'")
+    
     words = tweet.split()
+    
     reformed = [CONTRACTIONS[word] if word in CONTRACTIONS else word for word in words]
     tweet = " ".join(reformed)
     
@@ -133,11 +137,10 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     tweet = " ".join(reformed)
     
     #Deal with emojis
-    tweet = emoji.demojize(tweet)
+    tweet = emoji.demojize(tweet,language='es')
 
     tweet = tweet.replace(":"," ")
     tweet = ' '.join(tweet.split())
-
     return tweet
 
 
@@ -260,7 +263,7 @@ def train():
     try:
         hyper_params = {"lr": 0.01,
                         "epoch": 150,
-                        "wordNgrams": 2,
+                        "wordNgrams": 10,
                         "dim": 100}     
                                
         print(str(datetime.datetime.now()) + ' START=>' + str(hyper_params) )
