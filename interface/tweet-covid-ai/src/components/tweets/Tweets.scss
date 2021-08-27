@@ -1,0 +1,32 @@
+.tweet {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 1rem;
+
+	.content {
+		background: white;
+		margin-right: 1rem;
+		color: black;
+		padding: 1rem 2rem;
+		width: 20rem;
+		border-radius: 0.4rem;
+	}
+
+	button {
+		border: none;
+		height: 2rem;
+		border-radius: 0.2rem;
+		background: #176e00;
+		color: white;
+		&:hover {
+			background: rgba(23, 110, 0, 0.5);
+		}
+	}
+}
+
+.tweets {
+	height: 40vh;
+	overflow: hidden;
+	overflow-y: scroll;
+}
