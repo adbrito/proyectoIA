@@ -26,14 +26,14 @@ for row in csv_reader:
     else:
         y_actual.append(random.choice(labels))
 
-print("Actual: ", y_actual)
-print("Predicted: ", y_predicted)
+#print("Actual: ", y_actual)
+#print("Predicted: ", y_predicted)
 
 cm = confusion_matrix(y_actual, y_predicted, labels)
 
 # Accuracy
 accuracy=accuracy_score(y_actual, y_predicted)
-
+print("Labels: ",labels)
 print("Accuracy: ",accuracy)
 
 # Precision
@@ -73,6 +73,6 @@ for (i, j), z in np.ndenumerate(cm):
 
 
 
-#plt.show()
+plt.show()
 # Closing file
 tweets_predict.close()

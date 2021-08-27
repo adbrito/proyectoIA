@@ -1,6 +1,7 @@
 import os
 import csv
 import fasttext
+import emoji
 
 encoding_files = "utf-8" 
 
@@ -37,6 +38,8 @@ for row in csv_reader:
     #print('***************************************************')
     # print('Frase: ',tweet)
     try:
+        tweet=emoji.demojize(tweet,language='es')
+        tweet = tweet.replace(":"," ")
         l=model.predict(tweet, k=1)
         # print(l[0])
         label=get_label(l[0][0])
