@@ -8,7 +8,7 @@ def get_label(s):
 # Load Moldel
 model = fasttext.load_model("model-es.ftz")
 
-emojis = [["🤔 🤔","Think"],["😂 😂","Laughter"],["😠 😠","Angry"],["😘 😊","Kiss:Smiling"],["😊 😘","Smiling:Kiss"]]
+emojis = [["🤔","Think"],["😂","Laughter"],["😠","Angry"],["😘","Kiss"],["😊","Smiling"]]
 
 for i in emojis:
     emoji=i[0]
