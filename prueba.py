@@ -76,6 +76,7 @@ def load_dict_smileys():
         "xp":"jugueton",
         ":p":"jugueton",
         ":Þ":"jugueton",
+        ":v":"jugueton",
         ":þ":"jugueton",
         ":b":"jugueton",
         "<3":"amor",
@@ -104,11 +105,13 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     #Special case not handled previously.
     tweet = tweet.replace('\x92',"'")
     
+    #Removal of address
+    tweet = ' '.join(re.sub("(\w+:\/\/\w+\.?\S+)", "", tweet).split())
+
     #Removal of hastags/account
     tweet = ' '.join(re.sub("(@[\s?_?\wA-Za-z0-9]+)|(#[\s?_?\w]+)", "", tweet).split())
     
-    #Removal of address
-    tweet = ' '.join(re.sub("(\w+:\/\/\w+\.?\S+)", "", tweet).split())
+    
     
     #Removal of Punctuation
     tweet = ' '.join(re.sub("[\.\,\!\?\¿\:\;\-\=\&\´\``\|\[\]\*\)\(\%\>\<\#\/]", "", tweet).split())
@@ -118,8 +121,9 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     
     #CONTRACTIONS source: https://en.wikipedia.org/wiki/Contraction_%28grammar%29
     CONTRACTIONS = load_dict_contractions()
-    # tweet = tweet.replace("’","'")
+    
     words = tweet.split()
+    
     reformed = [CONTRACTIONS[word] if word in CONTRACTIONS else word for word in words]
     tweet = " ".join(reformed)
     
@@ -133,11 +137,10 @@ def tweet_cleaning_for_sentiment_analysis(tweet):
     tweet = " ".join(reformed)
     
     #Deal with emojis
-    tweet = emoji.demojize(tweet)
+    tweet = emoji.demojize(tweet,language='es')
 
     tweet = tweet.replace(":"," ")
     tweet = ' '.join(tweet.split())
-
     return tweet
 
 
@@ -157,7 +160,7 @@ def transform_instance(row):
     return cur_row
 
 
-def preprocess(input_file, output_file, keep=1):
+def preprocess(input_file, output_file):
     i=0
     with open(output_file, 'w', encoding=encoding_files) as csvoutfile:
         csv_writer = csv.writer(csvoutfile, delimiter=' ', lineterminator='\n')
@@ -187,11 +190,10 @@ preprocess('tester.csv', 'tweets.validation')
 #
 #####################################################################################
 
-def upsampling(input_file, output_file, ratio_upsampling=1):
+def upsampling(input_file, output_file):
     # Create a file with equal number of tweets for each label
     #    input_file: path to file
     #    output_file: path to the output file
-    #    ratio_upsampling: ratio of each minority classes vs majority one. 1 mean there will be as much of each class than there is for the majority class 
     
     i=0
     counts = {}
@@ -259,9 +261,9 @@ model_name="model-es"
 def train():
     print('Training start')
     try:
-        hyper_params = {"lr": 0.01,
-                        "epoch": 150,
-                        "wordNgrams": 2,
+        hyper_params = {"lr": 0.05,
+                        "epoch": 200,
+                        "wordNgrams": 50,
                         "dim": 100}     
                                
         print(str(datetime.datetime.now()) + ' START=>' + str(hyper_params) )
@@ -281,18 +283,10 @@ def train():
         print(text_line)
         
         #quantize a model to reduce the memory usage
-        model.quantize(input=training_data_path, qnorm=True, retrain=True, cutoff=400000)
+        model.quantize(input=training_data_path, qnorm=True, retrain=True, cutoff=100000)
         
         print("Model is quantized!!")
         model.save_model(os.path.join(model_path,model_name + ".ftz"))                
-    
-        ##########################################################################
-        #
-        #  TESTING PART
-        #
-        ##########################################################################            
-        model.predict(['why not'],k=3)
-        model.predict(['this player is so bad'],k=1)
         
     except Exception as e:
         print('Exception during training: ' + str(e) )
